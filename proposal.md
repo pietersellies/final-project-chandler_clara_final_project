@@ -1,43 +1,14 @@
-# Final project proposal
+# Algae and Climate Change
+### A screen of algal response to high light conditions in search of mutant strain that will improve plant tolerance to future climate-change related drought conditions
 
+Authors: Clara Park and Chandler Sutherland 
 
-Please prepare a short proposal on your final project idea for next **Thursday, Nov 2**. The proposal should include:
+![](image.png)
 
-- Title & description of the project
-- Your name & partner's name
-- A description of the data required, and how it will be obtained (e.g. URL/DOI to data source)
-- 3 questions / analysis tasks you will perform on the data; in the spirit of the assignments we have been doing.
+The unicellular, green alga _Chlamydomonas reinhardtii_ has been used as a model species for researches due to its haploid state, remarkably quick reproduction, and similarity in photosystem structure to land plants. With global surface temperatures warming and increased frequency and intensity of drought due to climate change, food supply for the global future is of concern. Understanding the genes, proteins, and biochemical pathways involved with light quenching is imperative to our ability to survive as climate change alters our ecosystem faster than evolution can follow. 
 
-*You may choose to work with your partner or independently on the final project. Please indicate which clearly in your proposal.*
+The Niyogi lab in the Plant and Microbial Biology Department of the University of California, Berkeley has targeted the PSBS gene with CRISPR-CPF1 (a cousin protein of CAS-9) to begin to unlock the secrets of non-photochemical quenching, or dissipation of excess energy recieved by light. This CRISPR transformation, however, has generated 400 potential mutants. These mutants were screened using a video-imager that measured non-photochemical quenching via fluorescence of chlorophyll as a function of light exposure. In the first part of this project we intend to tidy this data, calculate average values, and visualize it as a line graph. In the second section, we will attempt to recreate the standard NPQ curve by comparing an averaged set of our control values to published findings. The third part of the project is determining if any values are statistically significant, assuming that the mutants were not successfully transformed. 
 
-Replicating results of an existing study and exploring the impact of alternative assumptions in the data preparation, statistical methods chosen etc can provide an excellent template for an analysis (you'll see more of this in units 3 & 4)
+The data for this project will be csv files obtained by video imager measurements made by Chandler Sutherland in conjunction with the Niyogi lab. 
 
-
-Please create your proposal in a markdown file called `proposal.md` in the root directory of the final project repo.  
-
-
-## Preliminary Rubric (additional areas will be added)
-
-### Project questions must illustrate all of the following tasks:
-
-- Some form of data access / reading into R
-- Data tidying preparation
-- Initial data visualization
-- Use of GitHub
-- Reproducible execution with use of Travis
-- RMarkdown writeup, with final submission as a nicely formatted PDF document that includes code and results.
-- Overall clean and clear presentation of repository, code, and explanations.
-
-### and at least three of the following skills (this list may be modified/extended):
-
-- Use of at least 5 `dplyr` verbs / functions
-- Writing / working with custom R functions
-- Creating an R package for functions used in the analysis
-- Interaction with an API
-- Use of regular expressions
-- Use of an external relational database
-- Preparing processed data for archiving / publication
-- Parsing extensible data formats (JSON, XML)
-- Use of spatial vector data (`sf` package) and visualization of spatial data
-- Creation of an R package
 
