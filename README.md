@@ -1,10 +1,10 @@
 
-*add travis-ci badge here*
+[![Build Status](https://travis-ci.com/espm-157/final-project-chandler_clara_final_project.svg?branch=master)](https://travis-ci.com/espm-157/final-project-chandler_clara_final_project)
 
 ## Team Members:
 
-- full name, github handle
-- full name, github handle
+- Chandler Sutherland, chandlersutherland
+- Clara Park, skyp1208
 
 This repository is a template for your team's repository.
 
